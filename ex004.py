@@ -1,0 +1,10 @@
+escreva_algo = input('Digite algo: ')
+
+print(f'O tipo primitivo desse valor é {type(escreva_algo)}')
+print(f'Só tem espaços? {escreva_algo.isspace()}')
+print(f'É um número? {escreva_algo.isnumeric()}')
+print(f'É alfabético? {escreva_algo.isalpha()} ' )
+print(f'É um alphanumérico? {escreva_algo.isalnum()}')
+print(f'Está em maiúsculas? {escreva_algo.isupper()}')
+print(f'Está em minúsculas? {escreva_algo.islower()}')
+print(f'Está capitalizada? {escreva_algo.istitle()}')
